@@ -62,8 +62,8 @@ void loop() {
     Serial.print(F("INT detectada — flags: 0b"));
     for (int i = 7; i >= 0; i--) Serial.print((flags >> i) & 1);
 
-    if (flags & 0x40) Serial.print(F(" → PPG_RDY "));
-    if (flags & 0x80) Serial.print(F(" → A_FULL "));
+    if (flags & 0x40) Serial.print(F(" -> PPG_RDY "));
+    if (flags & 0x80) Serial.print(F(" -> A_FULL "));
 
     Serial.println();
   }

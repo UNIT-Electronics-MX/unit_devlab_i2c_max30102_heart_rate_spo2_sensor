@@ -91,7 +91,7 @@ void loop() {
 
     if (flags & 0x10) {
       // Bit 4 = PROX_INT
-      Serial.println(F("✓ DEDO DETECTADO — PROX_INT disparada"));
+      Serial.println(F(" DEDO DETECTADO — PROX_INT disparada"));
       Serial.println(F("  El IC transicionó a modo SpO2/HR normal"));
 
       // Para volver a modo proximidad hay que reescribir el MODE register

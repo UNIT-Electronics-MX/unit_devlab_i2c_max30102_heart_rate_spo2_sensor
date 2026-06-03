@@ -1,5 +1,5 @@
 
-# DevLab: [Protocol/Interface] [Chip/Model] [Brief Description][Module/Sensor/Shield/Adapter]
+# DevLab: I2C MAX30102 Hearth Rate SPO2 Sensor
 <!-- Exception:
 
 The PULSAR development board line does not use the DevLab: prefix.
@@ -14,7 +14,8 @@ Example: JUN R3 -->
 
 ## Introduction
 
-This is a modular development board based on a popular microcontroller, designed for rapid prototyping and educational use. It features flexible power options, modern connectivity, and user-friendly interfaces. An integrated LED matrix allows for simple visual feedback and display.
+The UNIT DevLab I2C MAX30102 Hearth Rate SPO2 Sensor is a compact and efficient sensor designed for acquire 
+measures of hearth rate, spo2 with multiple settings, the sensor counts with two power supply, for 1.8 V  and 3.3 V , for that energize many other boards of the Devlab ecosystem.
 
 <div align="center">
   <img src="hardware/resources/unit_top_v_1_0_0_icp10111_barometric_pressure_sensor.png" width="450px" alt="Development Board">
@@ -32,32 +33,29 @@ This is a modular development board based on a popular microcontroller, designed
 
 </div>
 
-<div align="center" >
+
 
 ## Overview
 
-| Feature           | Description                                         |
-|-------------------|-----------------------------------------------------|
-| Microcontroller   | 8-bit MCU                                           |
-| Memory            | Flash, SRAM, EEPROM                                 |
-| Clock Speed       | 16 MHz                                              |
-| Power Supply      | USB-C (5V)                                          |
-| Interfaces        | UART, I2C, SPI, PWM, ADC, GPIO                      |
-| LED Matrix        | 5x5 RGB LED Matrix                                  |
-| Connectivity      | USB-C for programming and power                     |
-| Form Factor       | UNO-compatible                                      |
-| Development IDEs  | Arduino IDE, PlatformIO                             |
-| Onboard Features  | Integrated LED matrix, programmable LED, reset button|
-| Expansion Port    | I2C connector for sensors and modules               |
+<div align="center">
+
+| Feature                                  | Specification                                                     |
+|------------------------------------------|-------------------------------------------------------------------|
+| Led Current Range                        | 0.0 to 51 mA                                                     |
+| JST 1.0mm 4-Pin Port  | QWIIC-compatible I2C connector for easy sensor and module expansion |
+| ADC Range Control                        | 2048 to 16384 |
+| Sample Rate Control                      | 50,100,200,400,800,1000,1600,3200 sps       |
+| Host Interface                           | I2C at up to 400 kHz                                               |
+| Single Supply voltage                    | 5V ±10%                                                         |
+
 
 </div>
 
 ## Applications
 
 - **Prototyping:** Quickly develop and test ideas.
-- **Education:** Suitable for learning microcontroller basics.
+- **Education:** Suitable for learning to use practical sensors in your projects.
 - **Wearables:** Compact and versatile for wearable devices.
-- **Displays:** Use the LED matrix for simple visual output.
 
 ## Resources
 
