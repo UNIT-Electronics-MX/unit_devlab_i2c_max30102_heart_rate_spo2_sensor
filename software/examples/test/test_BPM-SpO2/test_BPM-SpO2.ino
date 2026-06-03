@@ -4,8 +4,8 @@
 
 MAX30105 sensor;
 
-#define SDA_PIN 1
-#define SCL_PIN 6
+#define SDA_PIN 6
+#define SCL_PIN 7
 
 // ---------- BPM ----------
 const byte RATE_SIZE = 8;
