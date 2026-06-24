@@ -1,24 +1,12 @@
 
 # DevLab: I2C MAX30102 Hearth Rate SPO2 Sensor
-<!-- Exception:
 
-The PULSAR development board line does not use the DevLab: prefix.
-
-Format: PULSAR [MCU/Model]
-
-Examples: PULSAR C6, PULSAR H2, PULSAR RP2350
-
-The JUN R3 board also does not use DevLab:
-
-Example: JUN R3 -->
-
-## Introduction
 
 The UNIT DevLab I2C MAX30102 Hearth Rate SPO2 Sensor is a compact and efficient sensor designed for acquire 
 measures of hearth rate, spo2 with multiple settings, the sensor counts with two power supply, for 1.8 V  and 3.3 V , for that energize many other boards of the Devlab ecosystem.
 
 <div align="center">
-  <img src="hardware/resources/unit_top_v_1_0_0_icp10111_barometric_pressure_sensor.png" width="450px" alt="Development Board">
+  <img src="hardware/resources/unit_top_v_1_0_0_ue0133_max30102.png" width="450px" alt="Development Board">
   <p><em>Development Board</em></p>
 </div>
 
@@ -57,13 +45,9 @@ measures of hearth rate, spo2 with multiple settings, the sensor counts with two
 - **Education:** Suitable for learning to use practical sensors in your projects.
 - **Wearables:** Compact and versatile for wearable devices.
 
-## Resources
 
-- [Schematic Diagram](#)
-- [Pinout Diagram](#)
-- [Getting Started Guide](#)
 
-## 📝 License
+## License
 
 All hardware and documentation in this project are licensed under the **MIT License**.  
 See [`LICENSE.md`](LICENSE.md) for details.
