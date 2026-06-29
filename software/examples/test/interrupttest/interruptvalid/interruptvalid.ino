@@ -17,7 +17,7 @@
  */
 
 #include <Wire.h>
-#include "MAX30105.h"
+#include "DevLab_MAX30102.h"
 
 #define SDA_PIN 6
 #define SCL_PIN 7
