@@ -44,14 +44,14 @@ using the ESP32 I2C QWIIC Connector.
 
 </div>
 
-- Open the Arduino IDE and open the code of your preference,this codes can found in the [test folder](examples/test)
+- Open the Arduino IDE and open the code of your preference, this codes can found in the [cpp_examples folder](examples/cpp_examples)
 
 - You can found 3 code examples:
-    1. [test_BPM-SpO2](examples/test/test_BPM-SpO2/test_BPM-SpO2.ino): Example for test with default settings of the sensor, the measure of SpO2, hearth rate. For better measurements, do not press your finger too hard on the sensor, and wait until the signal stabilizes. 
+    1. [test_bpm_spo2](examples/cpp_examples/test_bpm_spo2/test_bpm_spo2.ino): Example for test with default settings of the sensor, the measure of SpO2, hearth rate. For better measurements, do not press your finger too hard on the sensor, and wait until the signal stabilizes. 
 
-    2. [max30102sweep](examples/test/max30102sweep/max30102sweep.ino): This example code tests all available sensor settings. Each sample is taken with a 10-second delay between measurements to obtain reliable heart rate readings. The full test may take 4 hours or more to collect all signals.
+    2. [max30102sweep](examples/cpp_examples/max30102sweep/max30102sweep.ino): This example code tests all available sensor settings. Each sample is taken with a 10-second delay between measurements to obtain reliable heart rate readings. The full test may take 4 hours or more to collect all signals.
 
-    3. [interrupttest](examples/test/interrupttest/): This example tests the interrupt pin connected to the Pulsar C6. The interrupt is triggered when a change is detected. In this case, the Data Ready flag and the proximity detection feature are used to activate the interrupt.
+    3. [interrupttest](examples/cpp_examples/interrupttest/): This example tests the interrupt pin connected to the Pulsar C6. The interrupt is triggered when a change is detected. In this case, the Data Ready flag and the proximity detection feature are used to activate the interrupt.
 
     On the Pulsar C6, the interrupt handler must be defined with the function`IRAM_ATTR` to ensure proper interrupt handling on the available pins.
 

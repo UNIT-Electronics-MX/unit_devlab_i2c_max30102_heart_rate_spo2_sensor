@@ -20,10 +20,10 @@ SpO2 Sensor, validated with the Pulsar C6 (ESP32-C6).
 
 | Example | Purpose |
 | --- | --- |
-| [test_BPM-SpO2](test/test_BPM-SpO2/test_BPM-SpO2.ino) | Reads IR/RED data and estimates BPM and SpO2 with a simple serial monitor output. |
-| [max30102sweep](test/max30102sweep/max30102sweep.ino) | Sweeps valid MAX30102 LED current, sample average, sample rate, pulse width, and ADC range combinations. |
-| [interrupttest](test/interrupttest/interrupttest/interrupttest.ino) | Validates the INT pin using the data-ready interrupt. |
-| [interruptvalid](test/interrupttest/interruptvalid/interruptvalid.ino) | Validates proximity interrupt behavior. |
+| [test_bpm_spo2](cpp_examples/test_bpm_spo2/test_bpm_spo2.ino) | Reads IR/RED data and estimates BPM and SpO2 with a simple serial monitor output. |
+| [max30102sweep](cpp_examples/max30102sweep/max30102sweep.ino) | Sweeps valid MAX30102 LED current, sample average, sample rate, pulse width, and ADC range combinations. |
+| [interrupttest](cpp_examples/interrupttest/interrupttest/interrupttest.ino) | Validates the INT pin using the data-ready interrupt. |
+| [interruptvalid](cpp_examples/interrupttest/interruptvalid/interruptvalid.ino) | Validates proximity interrupt behavior. |
 
 ## Requirements
 
