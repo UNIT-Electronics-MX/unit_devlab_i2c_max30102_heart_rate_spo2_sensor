@@ -9,7 +9,7 @@
 ## Pinout
 
 <div align="center">
-    <a href="#"><img src="resources/unit_pinout_v_0_0_1_ue0133_max30102_heart_rate_spo2_sensor.jpg" width="500px"><br/>Pinout</a>
+    <a href="unit_pinout_v_1_0_0_ue0133_i2c_max30102_en.pdf"><img src="resources/pinout/unit_pinout_v_1_0_0_ue0133_i2c_max30102_en.jpg" width="500px"><br/>Pinout</a>
     <br/>
     <br/>
     <br/>
@@ -29,8 +29,6 @@
 </div>
 
 ## Topology
-
-<div align="center">
 
 <div align="center">
 <a href="./resources/unit_topology_V_0_0_1_ue0133_max30102_heart_rate_spo2_sensor.png"><img src="./resources/unit_topology_V_0_0_1_ue0133_max30102_heart_rate_spo2_sensor.png" width="500px"><br/> Topology</a>
@@ -68,4 +66,5 @@
 
 # References
 
-- [{{datasheet_name}}]({{datasheet_url}})
+- [Datasheet MAX30102](https://www.analog.com/media/en/technical-documentation/data-sheets/max30102.pdf)
+
