@@ -9,7 +9,7 @@
 ## Pinout
 
 <div align="center">
-    <a href="unit_pinout_v_1_0_0_ue0133_i2c_max30102_en.pdf"><img src="resources/pinout/unit_pinout_v_1_0_0_ue0133_i2c_max30102_en.jpg" width="500px"><br/>Pinout</a>
+    <a href="unit_pinout_v_1_0_0_ue0133_i2c_max30102_en.pdf"><img src="resources/pinout/unit_pinout_v_1_0_0_ue0133_i2c_max30102_en.jpg" width="800px"><br/>Pinout</a>
     <br/>
     <br/>
     <br/>
@@ -25,13 +25,13 @@
 ## Dimensions
 
 <div align="center">
-<a href="./resources/unit_dimension_v_1_0_0_ue0133_max30102_heart_rate_spo2_sensor.png"><img src="./resources/unit_dimension_v_1_0_0_ue0133_max30102_heart_rate_spo2_sensor.png" width="500px"><br/> Dimensions</a>
+<a href="./resources/unit_dimensions_v_1_0_0_ue0133_i2c_max30102.png"><img src="./resources/unit_dimensions_v_1_0_0_ue0133_i2c_max30102.png" width="700px"><br/> Dimensions</a>
 </div>
 
 ## Topology
 
 <div align="center">
-<a href="./resources/unit_topology_V_0_0_1_ue0133_max30102_heart_rate_spo2_sensor.png"><img src="./resources/unit_topology_V_0_0_1_ue0133_max30102_heart_rate_spo2_sensor.png" width="500px"><br/> Topology</a>
+<a href="./resources/unit_topology_v_1_0_0_ue0133_i2c_max30102.png"><img src="./resources/unit_topology_v_1_0_0_ue0133_i2c_max30102.png" width="700px"><br/> Topology</a>
 <br/>
 <br/>
 <br/>
